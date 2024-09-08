@@ -48,7 +48,7 @@ The below mentioned metrics are sourced from [RAGas](https://docs.ragas.io/en/st
 Context Precision is a metric that evaluates whether all of the ground-truth relevant items present in the contexts are ranked higher or not. Ideally all the relevant chunks must appear at the top ranks. This metric is computed using the question and the contexts, with values ranging between 0 and 1, where higher scores indicate better precision.
 
 $$
-\text{Context Precision@k} = {\sum {\text{precision@k}} \over \text{total number of relevant items in the top K results}}
+\text{Context Precision@K} = {\sum {\text{precision@k}} \over \text{total number of relevant items in the top K results}}
 $$
 
 $$
